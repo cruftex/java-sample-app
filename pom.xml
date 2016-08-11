@@ -174,8 +174,8 @@
       <id>fast-test</id>
     </profile>
     <!--
-         Profile for an extra maven repository local to the current project directory
-         containing the upstream build artifacts.
+         Downstream integration: Profile for an extra maven repository local to the current
+         project directory filled with the upstream build artifacts for downstream integration.
     -->
     <profile>
       <id>dsi-insitu-repository</id>
